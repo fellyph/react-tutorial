@@ -9,9 +9,6 @@ class PortfolioItem extends React.Component {
   render() {
     return (
       <article class="job">
-        <figure>
-          <img src="http://www.fellyph.com.br/blog/wp-content/uploads/2016/05/blog-elo7-1.png" alt="blog elo7" />
-        </figure>
         <h4 class="title">Blog elo7</h4>
         <ul class="fetures">
           <li><a href="#" target="_blank" alt="site">linkdosite.com.br</a></li>
