@@ -2,9 +2,9 @@
 class PortfolioItem extends React.Component {
   render() {
     return (
-      <article class="job">
-        <h4 class="title">{this.props.nome}</h4>
-        <ul class="fetures">
+      <article className="job">
+        <h4 className="title">{this.props.nome}</h4>
+        <ul className="fetures">
           <li><a href="#" target="_blank" alt="site">{this.props.site}</a></li>
           <li>Empresa: {this.props.empresa}</li>
           <li>Tecnologias: {this.props.tecnologias}</li>
