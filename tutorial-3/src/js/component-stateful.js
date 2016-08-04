@@ -1,4 +1,4 @@
-var TextAreaCounter = React.createClass({
+let TextAreaCounter = React.createClass({
   propTypes: {
     text: React.PropTypes.string
   },
@@ -28,5 +28,6 @@ var TextAreaCounter = React.createClass({
 
 
 ReactDOM.render(
-  React.createElement(TextAreaCounter, {text:"bob"}), document.getElementById('state')
+  React.createElement(TextAreaCounter, {text:"bob"}),
+  document.getElementById('state')
 );
